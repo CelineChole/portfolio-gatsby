@@ -35,16 +35,21 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+            Fullstack Web Instructor at{' '}
+            <a href="https://www.pursuit.org/" target="blank">
+              Pursuit
+            </a>
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+            I am currently a Fullstack Web Instructor Associate in a non profit
+            organisation
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            promoting more diversity in the tech world.
+          </p>
+          <p>
+            To explore some resources I built for students, <a href="/portfolio/students-resources">click here.</a>
+            <br />
+            To see more personal projects scroll down.
           </p>
         </header>
         <ul className="icons major">
@@ -73,14 +78,21 @@ const IndexPage = () => (
           <img src={pic1} alt="" />
         </div>
         <div className="content">
-          <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
-          </h2>
+          <h2>Pocket Budget</h2>
+          <br />
+          <p>Pocket Budget is an app to...</p>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            <a
+              href="https://github.com/aedificatorum/pocket-budget"
+              target="blank"
+            >
+              GitHub
+            </a> |  
+            <span>
+              Live Demo: no public access
+            </span>
+            <br />
+            <a href="/portfolio/roi-calculator">More details</a>
           </p>
         </div>
       </section>
@@ -89,14 +101,26 @@ const IndexPage = () => (
           <img src={pic2} alt="" />
         </div>
         <div className="content">
-          <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
-          </h2>
+          <h2>Should I automate it?</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Should I automate it? is designed for anyone interested to see when
+            a manual process would benefit from being automated.
+          </p>
+          <p>
+            <a
+              href="https://github.com/aedificatorum/shouldiautomateit"
+              target="blank"
+            >
+              GitHub
+            </a> |  
+            <a
+              href="https://aedificatorum.github.io/shouldiautomateit/"
+              target="blank"
+            >
+              Live Demo
+            </a>
+            <br />
+            <a href="/portfolio/roi-calculator">More details</a>
           </p>
         </div>
       </section>
@@ -105,14 +129,17 @@ const IndexPage = () => (
           <img src={pic3} alt="" />
         </div>
         <div className="content">
-          <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
-          </h2>
+          <h2>A World in Metric</h2>
+          <p>An extension to convert imperial measure to the metric system.</p>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            <a
+              href="https://chrome.google.com/webstore/detail/a-world-in-metric/pdleompplbpjooccppmgapllobgodjed"
+              target="blank"
+            >
+              Chrome Web Store
+            </a>
+            <br />
+            <a href="/portfolio/chrome-extension">More details</a>
           </p>
         </div>
       </section>
@@ -121,53 +148,47 @@ const IndexPage = () => (
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
-          </p>
+          <h2>Technologies</h2>
+          <p>Overview of the technologies I am familiar with.</p>
         </header>
         <ul className="features">
           <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
+            <h3>JavaScript</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
             </p>
           </li>
           <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
+            <h3>React</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
             </p>
           </li>
           <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
+            <h3>Firebase</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
             </p>
           </li>
           <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
+            <h3>CSS Frameworks</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              I have experience with these frameworks: MaterializeCSS,
+              React-Bootstrap, TailwindCSS
             </p>
           </li>
           <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
+            <h3>Node.js</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
             </p>
           </li>
           <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
+            <h3>Postgres</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
@@ -180,21 +201,22 @@ const IndexPage = () => (
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
+          <h2>Further</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
+            Complete list of projects? Click on Explore.
+            <br />
+            More details? Click on About.
           </p>
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="/#" className="button fit primary">
-              Activate
+            <a href="/portfolio/explore" className="button fit secondary">
+              Explore
             </a>
           </li>
           <li>
-            <a href="/#" className="button fit">
-              Learn More
+            <a href="/about" className="button fit secondary">
+              About
             </a>
           </li>
         </ul>
