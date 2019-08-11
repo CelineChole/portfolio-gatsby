@@ -967,6 +967,21 @@
 			}
 		}
 
+		&.secondary {
+			background-color: _palette(accent5, bg);
+			box-shadow: none !important;
+			color: _palette(accent5, fg-bold) !important;
+
+			&:hover {
+				background-color: lighten(_palette(accent5, bg), 5) !important;
+			}
+
+			&:active {
+				background-color: darken(_palette(accent5, bg), 5) !important;
+			}
+		}
+
+
 		&.disabled,
 		&:disabled {
 			@include vendor('pointer-events', 'none');
