@@ -79,8 +79,7 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>Pocket Budget</h2>
-          <br />
-          <p>Pocket Budget is an app to...</p>
+          <p>An app to record your budget on the go.</p>
           <p>
             <a
               href="https://github.com/aedificatorum/pocket-budget"
@@ -92,7 +91,7 @@ const IndexPage = () => (
               Live Demo: no public access
             </span>
             <br />
-            <a href="/portfolio/roi-calculator">More details</a>
+            <a href="/portfolio/pocket-budget">More details</a>
           </p>
         </div>
       </section>

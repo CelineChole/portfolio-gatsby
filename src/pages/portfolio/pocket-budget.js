@@ -6,7 +6,7 @@ const IndexPage = () => (
   <Layout fullMenu>
     <article id="main">
       <header>
-        <h2>Yoga Dice</h2>
+        <h2>Pocket Budget</h2>
         <p>Work In Progress</p>
       </header>
       <section className="wrapper style5">

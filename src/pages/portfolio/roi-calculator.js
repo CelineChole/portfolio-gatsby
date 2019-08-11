@@ -53,11 +53,27 @@ const IndexPage = () => (
               </span>
             </div>
           </div>
-
           <h3>Future Ideas</h3>
           <p>
             One of the future ideas would be to translate the tool and provide a
             more detailed summary.
+          </p>
+          <hr />
+          <h4>Links</h4>
+          <p>
+            <a
+              href="https://github.com/aedificatorum/shouldiautomateit"
+              target="blank"
+            >
+              GitHub
+            </a>
+            |
+            <a
+              href="https://aedificatorum.github.io/shouldiautomateit/"
+              target="blank"
+            >
+              Live Demo
+            </a>
           </p>
         </div>
       </section>
