@@ -86,10 +86,7 @@ const IndexPage = () => (
               target="blank"
             >
               GitHub
-            </a> |  
-            <span>
-              Live Demo: no public access
-            </span>
+            </a>
             <br />
             <a href="/portfolio/pocket-budget">More details</a>
           </p>
@@ -161,15 +158,13 @@ const IndexPage = () => (
           <li className="icon solid fa-laptop">
             <h3>React</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              I have experience building React applications. I also have some expertise with Redux.
             </p>
           </li>
           <li className="icon solid fa-code">
             <h3>Firebase</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              I have experienced with both Firebase and Cloud Firestore. I used Firebase authentication, Cloud Firestore and Hosting.
             </p>
           </li>
           <li className="icon solid fa-headphones-alt">
@@ -182,15 +177,13 @@ const IndexPage = () => (
           <li className="icon fa-heart">
             <h3>Node.js</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              I have experience using and teaching about Node and Express.
             </p>
           </li>
           <li className="icon fa-flag">
             <h3>Postgres</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              I have experience building projects with Postgres and also delivering trainings.
             </p>
           </li>
         </ul>
