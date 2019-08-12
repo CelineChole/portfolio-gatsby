@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
-import pic2 from '../../assets/images/pic02.jpg';
+import automate from '../../assets/images/automate.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -23,10 +23,10 @@ const IndexPage = () => (
               xkcd 1205
             </a>
           </p>
+                <h3>Functionality</h3>
           <div className="row gtr-50 gtr-uniform">
             <div className="col-5">
               <span>
-                <h3>Functionality</h3>
                 <p>
                   Basic options allow you to indicate how often you perform the
                   task and how long it takes you. Then you indicate how long it
@@ -35,6 +35,15 @@ const IndexPage = () => (
                   a return on your investment.
                 </p>
 
+              </span>
+            </div>
+            <div className="col-1"></div>
+            <div className="col-5">
+              <span className="image fit">
+                <img src={automate} alt="" />
+              </span>
+            <br />
+            </div>
                 <p>
                   Advanced options allows you to tailor the tool even further to
                   your needs. By default the tool assumes that the estimate
@@ -44,14 +53,6 @@ const IndexPage = () => (
                   certain about your estimate adjust these values. The number of
                   months forecasted can also be customised, and defaults to 36.
                 </p>
-              </span>
-            </div>
-            <div className="col-1"></div>
-            <div className="col-6">
-              <span className="image fit">
-                <img src={pic2} alt="" />
-              </span>
-            </div>
           </div>
           <h3>Future Ideas</h3>
           <p>

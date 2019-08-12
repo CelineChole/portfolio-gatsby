@@ -1,10 +1,11 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
-import pic2 from '../../assets/images/pic02.jpg';
 import pic3 from '../../assets/images/pic03.jpg';
 import pic4 from '../../assets/images/pic04.jpg';
 import pic5 from '../../assets/images/pic05.jpg';
+import budget from '../../assets/images/budget.jpg';
+import automatexkcd from '../../assets/images/automatexkcd.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -13,16 +14,30 @@ const IndexPage = () => (
         <h2>Projects</h2>
         <p>Overview of what I am building</p>
       </header>
+
       <section className="wrapper style5">
         <div className="inner">
           <header>
             <h3>Pocket Budget</h3>
             <p>Cloud Firestore - React - TailwindCSS</p>
           </header>
-          <p>Work in progress</p>
+          <div className="row gtr-50 gtr-uniform">
+            <div className="col-5">
+              <span>
+              <p>Work in progress</p>
           {/* <p>
             <a href="/portfolio/pocket-budget">More details</a>
           </p> */}
+              </span>
+            </div>
+            <div className="col-1"></div>
+            <div className="col-5">
+              <span className="image fit">
+                <img src={budget} alt="" />
+              </span>
+            </div>
+          </div>
+          
           <br />
           <br />
           <header>
@@ -30,31 +45,28 @@ const IndexPage = () => (
             <p>React - MaterializeCSS</p>
           </header>
           <div className="row gtr-50 gtr-uniform">
-          <div className="col-5">
+            <div className="col-5">
               <span className="image fit">
-                <img src={pic2} alt="" />
+                <img src={automatexkcd} alt="" />
               </span>
             </div>
             <div className="col-1"></div>
             <div className="col-5">
               <span>
-              <p>
-            Should I automate it? is designed for anyone interested to see when
-            a manual process would benefit from being automated. This is a pair
-            project which was inspired by{' '}
-            <a href="https://xkcd.com/1205/" target="blank">
-              xkcd 1205
-            </a>
-          </p>
-          <p>
-            <a href="/portfolio/roi-calculator">More details</a>
-          </p>
+                <p>
+                  Should I automate it? is designed for anyone interested to see
+                  when a manual process would benefit from being automated. This
+                  is a pair project which was inspired by{' '}
+                  <a href="https://xkcd.com/1205/" target="blank">
+                    xkcd 1205
+                  </a>
+                </p>
+                <p>
+                  <a href="/portfolio/roi-calculator">More details</a>
+                </p>
               </span>
             </div>
-           
-           
-            </div>
-          
+          </div>
           <br />
           <br />
           <header>
@@ -168,18 +180,20 @@ const IndexPage = () => (
           <div className="row gtr-50 gtr-uniform">
             <div className="col-5">
               <span>
-              <p>
-            Are you struggling to cook and to navigate through your recipe?
-            Tired of washing your hands to check how much flour you need or
-            what's the next step? This speaks to all of us, this is why we
-            decided to create a hands free recipe assistant.
-          </p>
-          <p>
-            The ideal cooking experience is a hands-free recipe that could guide
-            us through the entire cooking process only using our voice. We
-            imagined a recipe assistant that would be able to read the recipe
-            and to let us know the exact ingredient we need for each step.
-          </p>
+                <p>
+                  Are you struggling to cook and to navigate through your
+                  recipe? Tired of washing your hands to check how much flour
+                  you need or what's the next step? This speaks to all of us,
+                  this is why we decided to create a hands free recipe
+                  assistant.
+                </p>
+                <p>
+                  The ideal cooking experience is a hands-free recipe that could
+                  guide us through the entire cooking process only using our
+                  voice. We imagined a recipe assistant that would be able to
+                  read the recipe and to let us know the exact ingredient we
+                  need for each step.
+                </p>
               </span>
             </div>
             <div className="col-1"></div>
@@ -188,7 +202,7 @@ const IndexPage = () => (
                 <img src={pic5} alt="" />
               </span>
             </div>
-            </div>
+          </div>
 
           <p>
             This was the capstone project for Grace Hopper, and was completed in
