@@ -159,13 +159,13 @@ const IndexPage = () => (
           <li className="icon solid fa-laptop">
             <h3>Backend</h3>
             <p>
-              I have been building application using Postgres and Cloud Firestore.
+              I have been building applications using Postgres and Cloud Firestore.
             </p>
           </li>
           <li className="icon solid fa-code">
-            <h3>Authentication</h3>
+            <h3>Business Analysis</h3>
             <p>
-              I have used Passport and Firebase authentication.
+              I have experience using Excel (and VBA), Power Query and Power BI to provide interactive visualizations.
             </p>
           </li>
           <li className="icon solid fa-headphones-alt">
