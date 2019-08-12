@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
+import pic5 from '../../assets/images/pic05.jpg';
 import pic6 from '../../assets/images/pic06.jpg';
 
 const IndexPage = () => (
@@ -12,16 +13,25 @@ const IndexPage = () => (
       </header>
       <section className="wrapper style5">
         <div className="inner">
+          <div className="row gtr-50 gtr-uniform">
+            <div className="col-5">
+              <span className="image fit">
+                <img src={pic5} alt="" />
+              </span>
+            </div>
+            <div className="col-6">
+              <span className="image fit">
+                <img src={pic6} alt="" />
+              </span>
+            </div>
+          </div>
           <h3>Functionality</h3>
           <p>
             The application has a database of recipes. Once you select a recipe,
             the application has several voice commands to guide you through
             cooking.
           </p>
-          <div className="row gtr-50 gtr-uniform">
-            <div className="col-5">
-              <span>
-              <p>
+          <p>
             <ul>
               <li>Start: starts the recipe</li>
               <li>Ingredients: reads the relevant ingredients for the step</li>
@@ -39,15 +49,7 @@ const IndexPage = () => (
               <li>voice assistant</li>
             </ul>
           </p>
-              </span>
-            </div>
-            <div className="col-1"></div>
-            <div className="col-6">
-              <span className="image fit">
-                <img src={pic6} alt="" />
-              </span>
-            </div>
-          </div>
+
           <p>
             Our recipe assistant also allows user to choose a recipe from one of
             their favorite websites and add it to Julia.

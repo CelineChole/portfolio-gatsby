@@ -5,7 +5,6 @@ import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 
 import automate from '../assets/images/automate.jpg';
-import pic3 from '../assets/images/pic03.jpg';
 import cooking from '../assets/images/cooking.jpg';
 import budget from '../assets/images/budget.jpg';
 import automatexkcd from '../assets/images/automatexkcd.jpg';
