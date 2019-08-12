@@ -71,7 +71,12 @@ const IndexPage = () => (
           <br />
           <header>
             <h3>A World in Metric</h3>
-            <p>Chrome Extension</p>
+            <p><a
+              href="https://chrome.google.com/webstore/detail/a-world-in-metric/pdleompplbpjooccppmgapllobgodjed"
+              target="blank"
+            >
+              Chrome Web Store
+            </a></p>
           </header>
           <div className="row gtr-50 gtr-uniform">
             <div className="col-5">
