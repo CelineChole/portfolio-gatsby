@@ -93,6 +93,23 @@ const IndexPage = () => (
             they could have access to their favorite poses and set their
             favorite filters.
           </p>
+          <hr />
+          <h4>Links</h4>
+          <p>
+            <a
+              href="https://celinechole.github.io/my-yoga-dice/"
+              target="blank"
+            >
+              Live Demo Yoga Dice 1
+            </a>
+            |
+            <a
+              href="https://yoga-dice-4c429.firebaseapp.com/#/"
+              target="blank"
+            >
+              Live Demo Yoga Dice 2
+            </a>
+          </p>
         </div>
       </section>
     </article>

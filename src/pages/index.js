@@ -135,7 +135,7 @@ const IndexPage = () => (
               Chrome Web Store
             </a>
             <br />
-            <a href="/portfolio/explore">More details</a>
+            <a href="/portfolio/chrome-extension">More details</a>
           </p>
         </div>
       </section>
