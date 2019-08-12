@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
+import pic4 from '../../assets/images/pic04.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -47,30 +48,47 @@ const IndexPage = () => (
             <h3>Yoga Dice</h3>
             <p>Cloud Firestore - React - Redux - Materialize</p>
           </header>
-          <p>
-            <a
-              href="https://celinechole.github.io/my-yoga-dice/"
-              target="blank"
-            >
-              Yoga Dice version 1, built in December 2018.
-            </a>
-            <br />
-            <a href="https://yoga-dice-4c429.firebaseapp.com/#/" target="blank">
-              Yoga Dice version 2, built in March 2019.
-            </a>
-          </p>
-          <p>
-            Everything began with my passion for yoga and the desire to
-            randomize my practice for the days the inspiration is lower than
-            usual.
-          </p>
-          <p>
-            Before starting the bootcamp Grace Hopper (Fullstack Academy) I
-            built a very simple version of this idea only using Vanilla
-            JavaScript. A few weeks into the Grace Hopper program, my desire to
-            rebuild a more elaborate version of the yoga dice app was really
-            high.
-          </p>
+          <div className="row gtr-50 gtr-uniform">
+            <div className="col-6">
+              <span className="image fit">
+                <img src={pic4} alt="" />
+              </span>
+            </div>
+            <div className="col-6">
+              <span>
+                <p>
+                  <p>
+                    <a
+                      href="https://celinechole.github.io/my-yoga-dice/"
+                      target="blank"
+                    >
+                      Yoga Dice version 1, built in December 2018.
+                    </a>
+                    <br />
+                    <a
+                      href="https://yoga-dice-4c429.firebaseapp.com/#/"
+                      target="blank"
+                    >
+                      Yoga Dice version 2, built in March 2019.
+                    </a>
+                  </p>
+                </p>
+                <p>
+                  Everything began with my passion for yoga and the desire to
+                  randomize my practice for the days the inspiration is lower
+                  than usual.
+                </p>
+                <p>
+                  Before starting the bootcamp Grace Hopper (Fullstack Academy)
+                  I built a very simple version of this idea only using Vanilla
+                  JavaScript. A few weeks into the Grace Hopper program, my
+                  desire to rebuild a more elaborate version of the yoga dice
+                  app was really high.
+                </p>
+              </span>
+            </div>
+          </div>
+          <br />
           <p>
             The main goal was building something nice using some technologies I
             was learning - in this case I wanted to practice React and Redux -

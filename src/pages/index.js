@@ -47,7 +47,7 @@ const IndexPage = () => (
             promoting more diversity in the tech world.
           </p>
           <p>
-            To explore some resources I built for students, <a href="/portfolio/students-resources">click here.</a>
+            To explore some resources I built for students, <a href="/portfolio/student-resources">click here.</a>
             <br />
             To see more personal projects scroll down.
           </p>
@@ -135,7 +135,7 @@ const IndexPage = () => (
               Chrome Web Store
             </a>
             <br />
-            <a href="/portfolio/chrome-extension">More details</a>
+            <a href="/portfolio/explore">More details</a>
           </p>
         </div>
       </section>
@@ -149,41 +149,40 @@ const IndexPage = () => (
         </header>
         <ul className="features">
           <li className="icon fa-paper-plane">
-            <h3>JavaScript</h3>
+            <h3>Frontend</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              I have experience using JavaScript, React and Redux. 
             </p>
           </li>
           <li className="icon solid fa-laptop">
-            <h3>React</h3>
+            <h3>Backend</h3>
             <p>
-              I have experience building React applications. I also have some expertise with Redux.
+              I have been building application using Postgres and Cloud Firestore.
             </p>
           </li>
           <li className="icon solid fa-code">
-            <h3>Firebase</h3>
+            <h3>Authentication</h3>
             <p>
-              I have experienced with both Firebase and Cloud Firestore. I used Firebase authentication, Cloud Firestore and Hosting.
+              I have used Passport and Firebase authentication.
             </p>
           </li>
           <li className="icon solid fa-headphones-alt">
             <h3>CSS Frameworks</h3>
             <p>
-              I have experience with these frameworks: MaterializeCSS,
-              React-Bootstrap, TailwindCSS
+              I have been playing with these frameworks: MaterializeCSS,
+              React-Bootstrap, TailwindCSS.
             </p>
           </li>
           <li className="icon fa-heart">
-            <h3>Node.js</h3>
+            <h3>Hosting</h3>
             <p>
-              I have experience using and teaching about Node and Express.
+              I have used Firebase, Heroku and GitHub.
             </p>
           </li>
           <li className="icon fa-flag">
-            <h3>Postgres</h3>
+            <h3>Others</h3>
             <p>
-              I have experience building projects with Postgres and also delivering trainings.
+              I have been experimenting using Gatsby to build this portfolio site.
             </p>
           </li>
         </ul>
@@ -197,7 +196,7 @@ const IndexPage = () => (
           <p>
             Complete list of projects? Click on Explore.
             <br />
-            More details? Click on About.
+            More about me? Click on Story.
           </p>
         </header>
         <ul className="actions stacked">
@@ -207,8 +206,8 @@ const IndexPage = () => (
             </a>
           </li>
           <li>
-            <a href="/about" className="button fit secondary">
-              About
+            <a href="/story" className="button fit secondary">
+              Story
             </a>
           </li>
         </ul>
