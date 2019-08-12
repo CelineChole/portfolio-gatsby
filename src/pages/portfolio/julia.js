@@ -68,6 +68,7 @@ const IndexPage = () => (
                 project because it was fairly easy to use. Though we would have
                 benefitted from a more detailed documentation.
               </li>
+              <br />
               <li>
                 Speech synthesis: handles text to speech. We chose{' '}
                 <a href="https://responsivevoice.com/" target="blanck">

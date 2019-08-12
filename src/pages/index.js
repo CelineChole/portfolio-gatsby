@@ -88,7 +88,7 @@ const IndexPage = () => (
               GitHub
             </a>
             <br />
-            <a href="/portfolio/pocket-budget">More details</a>
+            {/* <a href="/portfolio/pocket-budget">More details</a> */}
           </p>
         </div>
       </section>
