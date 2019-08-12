@@ -2,6 +2,8 @@ import React from 'react';
 
 import Layout from '../../components/Layout';
 import pic4 from '../../assets/images/pic04.jpg';
+import yogaDiceCreatePose from '../../assets/images/yogaDiceCreatePose.jpg';
+import yogaDiceAdmin from '../../assets/images/yogaDiceAdmin.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -13,26 +15,24 @@ const IndexPage = () => (
       <section className="wrapper style5">
         <div className="inner">
           <h3>Functionality</h3>
+          <p>
+            At the moment the website supports the following functions
+            <ul>
+              <li>Local login</li>
+              <li>Display 6 random poses, with a difficulty level filter</li>
+              <li>Create a new pose</li>
+              <li>Edit poses</li>
+            </ul>
+          </p>
           <div className="row gtr-50 gtr-uniform">
-            <div className="col-5">
-              <span>
-                <p>
-                  At the moment the website supports the following functions
-                  <ul>
-                    <li>Local login</li>
-                    <li>
-                      Display 6 random poses, with a difficulty level filter
-                    </li>
-                    <li>Create a new pose</li>
-                    <li>Edit poses</li>
-                  </ul>
-                </p>
-              </span>
-            </div>
-            <div className="col-1"></div>
-            <div className="col-5">
+            <div className="col-6">
               <span className="image fit">
                 <img src={pic4} alt="" />
+              </span>
+            </div>
+            <div className="col-6">
+              <span className="image fit">
+                <img src={yogaDiceCreatePose} alt="" />
               </span>
             </div>
           </div>
