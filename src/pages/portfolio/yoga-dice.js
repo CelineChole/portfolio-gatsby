@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
+import pic4 from '../../assets/images/pic04.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -11,55 +12,86 @@ const IndexPage = () => (
       </header>
       <section className="wrapper style5">
         <div className="inner">
-          <h3>Lorem ipsum dolor</h3>
+          <h3>Functionality</h3>
+          <div className="row gtr-50 gtr-uniform">
+            <div className="col-5">
+              <span>
+                <p>
+                  At the moment the website supports the following functions
+                  <ul>
+                    <li>Local login</li>
+                    <li>
+                      Display 6 random poses, with a difficulty level filter
+                    </li>
+                    <li>Create a new pose</li>
+                    <li>Edit poses</li>
+                  </ul>
+                </p>
+              </span>
+            </div>
+            <div className="col-1"></div>
+            <div className="col-5">
+              <span className="image fit">
+                <img src={pic4} alt="" />
+              </span>
+            </div>
+          </div>
+
+          <h3>Frontend</h3>
           <p>
-            Morbi mattis mi consectetur tortor elementum, varius pellentesque
-            velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac
-            scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis
-            lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo.
-            Maecenas sagittis felis ac sagittis semper. Curabitur purus leo,
-            tempus sed finibus eget, fringilla quis risus. Maecenas et lorem
-            quis sem varius sagittis et a est. Maecenas iaculis iaculis sem.
-            Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada
-            fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo.
-            Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci
-            fringilla tincidunt. Aliquam eleifend ligula non velit accumsan
-            cursus. Etiam ut gravida sapien.
+            The frontend is built with React and Redux, although not necessary I
+            wanted to include Redux in order to practice.
           </p>
-
+          <h3>Backend</h3>
           <p>
-            Vestibulum ultrices risus velit, sit amet blandit massa auctor sit
-            amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis
-            id vel diam. Praesent sit amet posuere risus, eu faucibus lectus.
-            Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam.
-            Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna,
-            sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere
-            leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse
-            id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor
-            consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec
-            felis elementum varius.
+            I am using a backend as a service: Firestore, a noSQL database
+            provided by Google. I really enjoyed the flexibility of this product
+            in comparison to a SQL database. I have three collections, one to
+            store all my poses, one to store the user's information and finally
+            one to store admin.
           </p>
-
-          <hr />
-
-          <h4>Feugiat aliquam</h4>
+          <h3>Firestore security rules</h3>
           <p>
-            Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec
-            varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia
-            tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in
-            tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean
-            erat diam, tempus aliquet erat.
+            Security is really important because the client talks directly to
+            the database. Security rules can be directly implemented through
+            Firebase Rules. It is a configuration document that determines what
+            locations have restricted read/write permissions. I have the below
+            security rules. I created an administrator table and only users from
+            this table are able to modify poses. Originally I included admin in
+            the user table but I later realised that anyone using a simple
+            program as Postman could make himself admin so I corrected this.
+            Anyone can create a user (we want people to be able to sign up),
+            only logged in users can read other user's information - this is for
+            future development, e.g. being able to see other users favorite
+            poses.
           </p>
-
+          <h3>Deployment</h3>
           <p>
-            Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus
-            rutrum cursus velit, eget condimentum nunc blandit vel. In at
-            pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget,
-            fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra
-            commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim
-            vel, posuere finibus justo. Vivamus facilisis maximus nibh quis
-            pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum.
-            Proin mauris dui, at vestibulum sit amet, auctor bibendum neque.
+            Originally I wanted to deploy my yoga dice using Heroku but I
+            realised that I could deploy it using Firebase, something I had
+            never done and that I was keen to discover.
+          </p>
+          <h3>What would I do differently?</h3>
+          <p>
+            There are two main things I would do differently if I restarted this
+            project. The first thing would be to not use Redux. I would explore
+            the new React context API. I understand that it provides a way to
+            pass data through the component tree without having to pass props
+            down manually which would be very handy. The second thing I would do
+            differently is write tests. It is hard to see the value of tests
+            early on, but as I make more changes (and introduce more bugs!) I
+            start to see why they can be so valuable.
+          </p>
+          <h3>Future ideas</h3>
+          <p>
+            There are a lot of additional features I would love to implement,
+            one of the first one would be to increase the number of choices for
+            the filters - I would like to enable users to select pose types such
+            as core, backbend, balance, etc. Another feature would be to add a
+            practice timer. Users can login but so far there is not much else
+            they can do, I would like to implement a sort of dashboard where
+            they could have access to their favorite poses and set their
+            favorite filters.
           </p>
         </div>
       </section>
