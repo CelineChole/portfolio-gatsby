@@ -42,7 +42,7 @@ const IndexPage = () => (
             </a>
           </h2>
           <p>
-            I am currently a Fullstack Web Instructor Associate in a non profit
+            I am currently a Fullstack Web Instructor in a non profit
             organisation
             <br />
             promoting more diversity in the tech world.
