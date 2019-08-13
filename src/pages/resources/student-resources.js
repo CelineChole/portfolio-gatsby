@@ -11,21 +11,24 @@ const IndexPage = () => (
       </header>
       <section className="wrapper style5">
         <div className="inner">
-          <h3>Tech resources</h3>
-          <p>A collection of resources I found useful for students.</p>
-          <a
-            href="https://gist.github.com/CelineChole/38ff863559f13ef39a6b5646c57e1996"
-            target="blank"
-          >
-            Link to the gist.
-          </a>
-          <h3>10 days of JavaScript</h3>
+        <h3>10 days of JavaScript</h3>
           <p>
             This is a collection of 10 JavaScript problem I created to help
             students consolidate their knowledge.
           </p>
           <a
             href="https://gist.github.com/CelineChole/fed4df894f83f02fa750bd92cddded74"
+            target="blank"
+          >
+            Link to the gist.
+          </a>
+          
+          <hr />
+
+          <h3>Tech resources</h3>
+          <p>A collection of resources I found useful for students.</p>
+          <a
+            href="https://gist.github.com/CelineChole/38ff863559f13ef39a6b5646c57e1996"
             target="blank"
           >
             Link to the gist.
