@@ -13,7 +13,7 @@ const IndexPage = () => (
         <div className="inner">
         <h3>10 days of JavaScript</h3>
           <p>
-            This is a collection of 10 JavaScript problem I created to help
+            This is a collection of 10 JavaScript problems I created to help
             students consolidate their knowledge.
           </p>
           <a
