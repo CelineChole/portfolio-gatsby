@@ -25,6 +25,23 @@ const IndexPage = () => (
               </span>
             </div>
           </div>
+          <h3>Overview</h3>
+          <p>
+            Are you struggling to cook and to navigate through your recipe?
+            Tired of washing your hands to check how much flour you need or
+            what's the next step? This speaks to all of us, this is why we
+            decided to create a hands free recipe assistant.
+          </p>
+          <p>
+            The ideal cooking experience is a hands-free recipe that could guide
+            us through the entire cooking process only using our voice. We
+            imagined a recipe assistant that would be able to read the recipe
+            and to let us know the exact ingredient we need for each step.
+          </p>
+          <p>
+            This was the capstone project for Grace Hopper, and was completed in
+            a team of 4 over 10 days.
+          </p>
           <h3>Functionality</h3>
           <p>
             The application has a database of recipes. Once you select a recipe,
