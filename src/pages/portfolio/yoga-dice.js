@@ -14,6 +14,26 @@ const IndexPage = () => (
       </header>
       <section className="wrapper style5">
         <div className="inner">
+          <h3>Overview</h3>
+          <p>
+            Everything began with my passion for yoga and the desire to
+            randomize my practice for the days the inspiration is lower than
+            usual.
+          </p>
+          <p>
+            Before starting the bootcamp Grace Hopper (Fullstack Academy) I
+            built a very simple version of this idea only using Vanilla
+            JavaScript. A few weeks into the Grace Hopper program, my desire to
+            rebuild a more elaborate version of the yoga dice app was really
+            high.
+          </p>
+          <p>
+            The main goal was building something nice using some technologies I
+            was learning - in this case I wanted to practice React and Redux -
+            but also discovering other technologies that I wouldn't have the
+            opportunity to learn during my time in the bootcamp - Firebase and
+            Firestore.
+          </p>
           <h3>Functionality</h3>
           <p>
             At the moment the website supports the following functions
@@ -36,7 +56,7 @@ const IndexPage = () => (
               </span>
             </div>
           </div>
-
+          <br />
           <h3>Frontend</h3>
           <p>
             The frontend is built with React and Redux, although not necessary I
@@ -103,10 +123,7 @@ const IndexPage = () => (
               Live Demo Yoga Dice 1
             </a>
             |
-            <a
-              href="https://yoga-dice-4c429.firebaseapp.com/#/"
-              target="blank"
-            >
+            <a href="https://yoga-dice-4c429.firebaseapp.com/#/" target="blank">
               Live Demo Yoga Dice 2
             </a>
           </p>
