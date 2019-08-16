@@ -42,12 +42,14 @@ const IndexPage = () => (
             </a>
           </h2>
           <p>
-            I am currently a Fullstack Web Instructor in a non profit organisation
+            I am currently a Fullstack Web Instructor in a non profit
+            organisation
             <br />
             promoting more diversity in the tech world.
           </p>
           <p>
-            To explore some resources I built for students, <a href="/portfolio/student-resources">click here.</a>
+            To explore some resources I built for students,{' '}
+            <a href="/resources/student-resources">click here.</a>
             <br />
             To see more personal projects scroll down.
           </p>
@@ -102,22 +104,27 @@ const IndexPage = () => (
             Should I automate it? is designed for anyone interested to see when
             a manual process would benefit from being automated.
           </p>
-          <p>
-            <a
-              href="https://github.com/aedificatorum/shouldiautomateit"
-              target="blank"
-            >
-              GitHub
-            </a> |  
-            <a
-              href="https://aedificatorum.github.io/shouldiautomateit/"
-              target="blank"
-            >
-              Live Demo
-            </a>
-            <br />
-            <a href="/portfolio/roi-calculator">More details</a>
-          </p>
+          <div>
+            <span className="index-links">
+              <a
+                href="https://github.com/aedificatorum/shouldiautomateit"
+                target="blank"
+              >
+                GitHub
+              </a>
+            </span>
+            <span className="index-links">
+              <a
+                href="https://aedificatorum.github.io/shouldiautomateit/"
+                target="blank"
+              >
+                Live Demo
+              </a>
+            </span>
+            <span className="index-links">
+              <a href="/portfolio/roi-calculator">More details</a>
+            </span>
+          </div>
         </div>
       </section>
       <section className="spotlight">
@@ -127,16 +134,19 @@ const IndexPage = () => (
         <div className="content">
           <h2>A World in Metric</h2>
           <p>An extension to convert imperial measure to the metric system.</p>
-          <p>
-            <a
-              href="https://chrome.google.com/webstore/detail/a-world-in-metric/pdleompplbpjooccppmgapllobgodjed"
-              target="blank"
-            >
-              Chrome Web Store
-            </a>
-            <br />
-            <a href="/portfolio/chrome-extension">More details</a>
-          </p>
+          <div>
+            <span className="index-links">
+              <a
+                href="https://chrome.google.com/webstore/detail/a-world-in-metric/pdleompplbpjooccppmgapllobgodjed"
+                target="blank"
+              >
+                Chrome Web Store
+              </a>
+            </span>
+            <span className="index-links">
+              <a href="/portfolio/chrome-extension">More details</a>
+            </span>
+          </div>
         </div>
       </section>
     </section>
@@ -150,20 +160,20 @@ const IndexPage = () => (
         <ul className="features">
           <li className="icon fa-paper-plane">
             <h3>Frontend</h3>
-            <p>
-              I have experience using JavaScript, React and Redux. 
-            </p>
+            <p>I have experience using JavaScript, React and Redux.</p>
           </li>
           <li className="icon solid fa-laptop">
             <h3>Backend</h3>
             <p>
-              I have been building applications using Postgres and Cloud Firestore.
+              I have been building applications using Postgres and Cloud
+              Firestore.
             </p>
           </li>
           <li className="icon solid fa-code">
             <h3>Business Analysis</h3>
             <p>
-              I have experience using Excel (and VBA), Power Query and Power BI to provide interactive visualizations.
+              I have experience using Excel (and VBA), Power Query and Power BI
+              to provide interactive visualizations.
             </p>
           </li>
           <li className="icon solid fa-headphones-alt">
@@ -175,14 +185,13 @@ const IndexPage = () => (
           </li>
           <li className="icon fa-heart">
             <h3>Hosting</h3>
-            <p>
-              I have used Firebase, Heroku and GitHub.
-            </p>
+            <p>I have used Firebase, Heroku and GitHub.</p>
           </li>
           <li className="icon fa-flag">
             <h3>Others</h3>
             <p>
-              I have been experimenting using Gatsby to build this portfolio site.
+              I have been experimenting using Gatsby to build this portfolio
+              site.
             </p>
           </li>
         </ul>
