@@ -27,7 +27,8 @@ const IndexPage = () => (
 
           <h3>Express middleware review lesson</h3>
           <p>
-            A live example to understand Express middleware. Navigate bewtween branches to follow step by step.
+            A live example to understand Express middleware. Navigate bewtween
+            branches to follow step by step.
           </p>
           <a
             href="https://github.com/CelineChole/express-middleware"
@@ -63,15 +64,13 @@ const IndexPage = () => (
           <hr />
 
           <h3>Recursion</h3>
-          <p>
-            Review lesson on recursion -{' '}
-            <a
-              href="https://gist.github.com/CelineChole/1fa7d405b1efeed3ebfe04047c6b8342"
-              target="blank"
-            >
-              link to the gist.
-            </a>
-          </p>
+          <p>Review lesson on recursion</p>
+          <a
+            href="https://gist.github.com/CelineChole/1fa7d405b1efeed3ebfe04047c6b8342"
+            target="blank"
+          >
+            link to the gist.
+          </a>
         </div>
       </section>
     </article>
