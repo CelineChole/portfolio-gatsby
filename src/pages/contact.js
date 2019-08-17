@@ -12,13 +12,13 @@ const IndexPage = () => (
       <section className="wrapper style5">
         <div className="inner">
           <section>
-            <h4>Form</h4>
-            <form method="post" action="#">
+            <h4>Contact me</h4>
+            <form method="post" action="https://formspree.io/contact@celinechole.com">
               <div className="row gtr-uniform">
                 <div className="col-6 col-12-xsmall">
                   <input
                     type="text"
-                    name="demo-name"
+                    name="name"
                     id="demo-name"
                     defaultValue=""
                     placeholder="Name"
@@ -32,19 +32,6 @@ const IndexPage = () => (
                     defaultValue=""
                     placeholder="Email"
                   />
-                </div>
-                <div className="col-6 col-12-small">
-                  <input type="checkbox" id="demo-copy" name="demo-copy" />
-                  <label htmlFor="demo-copy">Email me a copy</label>
-                </div>
-                <div className="col-6 col-12-small">
-                  <input
-                    type="checkbox"
-                    id="demo-human"
-                    name="demo-human"
-                    defaultChecked
-                  />
-                  <label htmlFor="demo-human">Not a robot</label>
                 </div>
                 <div className="col-12">
                   <textarea
