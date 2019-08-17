@@ -41,18 +41,17 @@ const IndexPage = () => (
               Pursuit
             </a>
           </h2>
-          <p>
-            I am currently a Fullstack Web Instructor in a non profit
-            organisation
-            <br />
-            promoting more diversity in the tech world.
-          </p>
-          <p>
-            To explore some resources I built for students,{' '}
-            <a href="/resources/student-resources">click here.</a>
-            <br />
-            To see more personal projects scroll down.
-          </p>
+          <div className="not-too-wide">
+            <p>
+              I am currently a Fullstack Web Instructor in a non profit
+              organisation promoting more diversity in the tech world.
+            </p>
+            <p>
+              To explore some resources I built for students,{' '}
+              <a href="/resources/student-resources">click here.</a>
+              To see more personal projects scroll down.
+            </p>
+          </div>
         </header>
         <ul className="icons major">
           <li>
@@ -160,38 +159,44 @@ const IndexPage = () => (
         <ul className="features">
           <li className="icon fa-paper-plane">
             <h3>Frontend</h3>
-            <p>I have experience using JavaScript, React and Redux.</p>
+            <p>
+              Comfortable with React, just starting to wrap my head around
+              Redux.
+            </p>
           </li>
           <li className="icon solid fa-laptop">
             <h3>Backend</h3>
             <p>
-              I have been building applications using Postgres and Cloud
-              Firestore.
+              Building and teaching Node.js, Express, Postgres. Leveraging Cloud
+              Firestore for personal projects.
             </p>
           </li>
           <li className="icon solid fa-code">
-            <h3>Business Analysis</h3>
+            <h3>Analytics</h3>
             <p>
-              I have experience using Excel (and VBA), Power Query and Power BI
-              to provide interactive visualizations.
+              Business Analyst in a former life. Fluent with Excel, pretty good
+              with Power Query and Power BI.
             </p>
           </li>
           <li className="icon solid fa-headphones-alt">
             <h3>CSS Frameworks</h3>
             <p>
-              I have been playing with these frameworks: MaterializeCSS,
-              React-Bootstrap, TailwindCSS.
+              Shipped a few projects with MaterializeCSS and React-Bootstrap.
+              Really digging TailwindCSS right now.
             </p>
           </li>
           <li className="icon fa-heart">
             <h3>Hosting</h3>
-            <p>I have used Firebase, Heroku and GitHub.</p>
+            <p>
+              Deployed with Firebase, Heroku and GitHub Pages. Surge is really
+              impressing me.
+            </p>
           </li>
           <li className="icon fa-flag">
             <h3>Others</h3>
             <p>
-              I have been experimenting using Gatsby to build this portfolio
-              site.
+              Building with Gatsby. Pretending to understand GraphQL. Still
+              cannot center an image in CSS.
             </p>
           </li>
         </ul>
