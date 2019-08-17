@@ -113,7 +113,7 @@ const IndexPage = () => (
           </p>
           <h3>Backend</h3>
           <p>The backend is built using Express, Node and Postgres.</p>
-          <h3>Web Scrapping</h3>
+          <h3>Web Scraping</h3>
           <p>
             Our recipe assistant allows users to choose a recipe from one of
             their favorite websites and add it to Julia. Web scraping was very
