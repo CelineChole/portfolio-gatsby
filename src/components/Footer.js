@@ -18,7 +18,7 @@ export default function Footer() {
       <ul className="copyright">
         <li>&copy; Built by Céline Cholé</li>
         <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
+          Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>
         </li>
       </ul>
     </footer>
