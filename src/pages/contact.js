@@ -13,7 +13,10 @@ const IndexPage = () => (
         <div className="inner">
           <section>
             <h4>Contact me</h4>
-            <form method="post" action="https://formspree.io/contact@celinechole.com">
+            <form
+              method="post"
+              action="https://formspree.io/contact@celinechole.com"
+            >
               <div className="row gtr-uniform">
                 <div className="col-6 col-12-xsmall">
                   <input

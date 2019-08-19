@@ -25,7 +25,7 @@ const IndexPage = () => (
             tedious and error-prone activities. This was also helping the team
             to accomplish more without the need to recruit additional people.
           </p>
-          
+
           <p>
             Relocating to the USA was the perfect opportunity to switch careers.
             I thought the fastest way to get started in my career as a developer
