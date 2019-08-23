@@ -541,7 +541,7 @@ const IndexPage = () => (
                 </div>
                 <div className="col-4">
                   <span className="image fit">
-                    <img src={pic3} alt="" />
+                    <img src={worldInMetric} alt="" />
                   </span>
                 </div>
               </div>
