@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../../components/Layout';
 import pic4 from '../../assets/images/pic04.jpg';
-import worldInMetric from '../assets/images/worldInMetric.jpg';
+import worldInMetric from '../../assets/images/worldInMetric.jpg';
 import pic5 from '../../assets/images/pic05.jpg';
 import budget from '../../assets/images/budget.jpg';
 import automatexkcd from '../../assets/images/automatexkcd.jpg';
