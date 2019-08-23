@@ -1,8 +1,8 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
-import pic3 from '../../assets/images/pic03.jpg';
 import pic4 from '../../assets/images/pic04.jpg';
+import worldInMetric from '../assets/images/worldInMetric.jpg';
 import pic5 from '../../assets/images/pic05.jpg';
 import budget from '../../assets/images/budget.jpg';
 import automatexkcd from '../../assets/images/automatexkcd.jpg';
@@ -62,7 +62,7 @@ const IndexPage = () => (
           </section>
           <section className="explore">
             <div className="image">
-              <img src={pic3} alt="" />
+              <img src={worldInMetric} alt="" />
             </div>
             <div className="content">
               <header>
