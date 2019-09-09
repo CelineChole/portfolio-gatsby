@@ -1,8 +1,8 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
-import pic5 from '../../assets/images/pic05.jpg';
-import pic6 from '../../assets/images/pic06.jpg';
+import juliaHomePage from '../../assets/images/juliaHomePage.jpg';
+import juliaRecipePage from '../../assets/images/juliaRecipePage.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -16,12 +16,12 @@ const IndexPage = () => (
           <div className="row gtr-50 gtr-uniform">
             <div className="col-5">
               <span className="image fit">
-                <img src={pic5} alt="" />
+                <img src={juliaHomePage} alt="" />
               </span>
             </div>
             <div className="col-6">
               <span className="image fit">
-                <img src={pic6} alt="" />
+                <img src={juliaRecipePage} alt="" />
               </span>
             </div>
           </div>

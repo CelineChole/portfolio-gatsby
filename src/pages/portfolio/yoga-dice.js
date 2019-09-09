@@ -1,9 +1,7 @@
 import React from 'react';
-
 import Layout from '../../components/Layout';
-import pic4 from '../../assets/images/pic04.jpg';
+import yogaDiceHomePage from '../../assets/images/yogaDiceHomePage.jpg';
 import yogaDiceCreatePose from '../../assets/images/yogaDiceCreatePose.jpg';
-import yogaDiceAdmin from '../../assets/images/yogaDiceAdmin.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -47,7 +45,7 @@ const IndexPage = () => (
           <div className="row gtr-50 gtr-uniform">
             <div className="col-6">
               <span className="image fit">
-                <img src={pic4} alt="" />
+                <img src={yogaDiceHomePage} alt="" />
               </span>
             </div>
             <div className="col-6">
