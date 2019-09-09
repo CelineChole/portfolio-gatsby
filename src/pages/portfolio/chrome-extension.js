@@ -1,4 +1,5 @@
 import React from 'react';
+import worldInMetric from '../../assets/images/worldInMetric.jpg';
 
 import Layout from '../../components/Layout';
 
@@ -37,13 +38,22 @@ const IndexPage = () => (
             of text to send to your loved ones, along with an explanation of
             what a 24oz soda really means.
           </p>
-
           <a
             href="https://chrome.google.com/webstore/detail/a-world-in-metric/pdleompplbpjooccppmgapllobgodjed"
             target="blank"
           >
             Link to the extension in the Chrome Web Store
           </a>
+          <br />
+          <br />
+          <div className="row gtr-50 gtr-uniform">
+            <div className="col-3" />
+            <div className="col-6">
+              <span className="image fit">
+                <img src={worldInMetric} alt="" />
+              </span>
+            </div>
+          </div>
         </div>
       </section>
     </article>
