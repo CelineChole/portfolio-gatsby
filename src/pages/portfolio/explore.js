@@ -1,21 +1,42 @@
 import React from 'react';
-
 import Layout from '../../components/Layout';
-import pic4 from '../../assets/images/pic04.jpg';
-import worldInMetric from '../../assets/images/worldInMetric.jpg';
-import pic5 from '../../assets/images/pic05.jpg';
+import yogaDiceHomePage from '../../assets/images/yogaDiceHomePage.jpg';
+import juliaHomePage from '../../assets/images/juliaHomePage.jpg';
 import budget from '../../assets/images/budget.jpg';
 import automatexkcd from '../../assets/images/automatexkcd.jpg';
+import cooking from '../../assets/images/cooking.jpg';
+import yoga from '../../assets/images/yoga.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
     <article id="main">
+    <header>
+        <h2>Projects</h2>
+        <p>Overview of what I am building</p>
+      </header>
       <header>
         <h2>Projects</h2>
         <p>Overview of what I am building</p>
       </header>
       <section className="wrapper style5">
         <div className="inner">
+        <section className="explore">
+            <div className="image">
+              <img src={yoga} alt="" />
+            </div>
+            <div className="content">
+              <header>
+                <h3>Yogi Library</h3>
+                <p>GatbsyJS - GraphQL - TailwindCSS</p>
+              </header>
+              <p>
+                Yogi Library is a curated list of videos to practice yoga. Videos can be viewed by duration, by type of yoga, tags...
+              </p>
+              <p>
+                <a href="/portfolio/yogi-library">More details</a>
+              </p>
+            </div>
+          </section>
           <section className="explore">
             <div className="image">
               <img src={budget} alt="" />
@@ -62,7 +83,7 @@ const IndexPage = () => (
           </section>
           <section className="explore">
             <div className="image">
-              <img src={worldInMetric} alt="" />
+              <img src={cooking} alt="cooking photo" />
             </div>
             <div className="content">
               <header>
@@ -90,7 +111,7 @@ const IndexPage = () => (
           </section>
           <section className="explore">
             <div className="image">
-              <img src={pic4} alt="" />
+              <img src={yogaDiceHomePage} alt="" />
             </div>
             <div className="content">
               <header>
@@ -127,7 +148,7 @@ const IndexPage = () => (
 
           <section className="explore">
             <div className="image">
-              <img src={pic5} alt="" />
+              <img src={juliaHomePage} alt="" />
             </div>
             <div className="content">
               <header>

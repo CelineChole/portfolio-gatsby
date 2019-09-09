@@ -1,14 +1,11 @@
 import React from 'react';
-
 import Layout from '../components/Layout';
-
 import Scroll from '../components/Scroll';
-
-import automate from '../assets/images/automate.jpg';
-import cooking from '../assets/images/cooking.jpg';
+import config from '../../config';
+import yoga from '../assets/images/yoga.jpg';
 import budget from '../assets/images/budget.jpg';
 import automatexkcd from '../assets/images/automatexkcd.jpg';
-import config from '../../config';
+
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -76,6 +73,33 @@ const IndexPage = () => (
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
+          <img src={yoga} alt="" />
+        </div>
+        <div className="content">
+          <h2>Yogi Library</h2>
+          <p>A curated list of videos to practice yoga.</p>
+          <div>
+            <span className="index-links">
+              <a
+                href="https://github.com/CelineChole/yoga-library"
+                target="blank"
+              >
+                GitHub
+              </a>
+            </span>
+            <span className="index-links">
+              <a href="http://yogi-library.surge.sh/" target="blank">
+                Live Demo
+              </a>
+            </span>
+            <span className="index-links">
+              <a href="/portfolio/yogi-library">More details</a>
+            </span>
+          </div>
+        </div>
+      </section>
+      <section className="spotlight">
+        <div className="image">
           <img src={budget} alt="" />
         </div>
         <div className="content">
@@ -122,28 +146,6 @@ const IndexPage = () => (
             </span>
             <span className="index-links">
               <a href="/portfolio/roi-calculator">More details</a>
-            </span>
-          </div>
-        </div>
-      </section>
-      <section className="spotlight">
-        <div className="image">
-          <img src={cooking} alt="" />
-        </div>
-        <div className="content">
-          <h2>A World in Metric</h2>
-          <p>An extension to convert imperial measure to the metric system.</p>
-          <div>
-            <span className="index-links">
-              <a
-                href="https://chrome.google.com/webstore/detail/a-world-in-metric/pdleompplbpjooccppmgapllobgodjed"
-                target="blank"
-              >
-                Chrome Web Store
-              </a>
-            </span>
-            <span className="index-links">
-              <a href="/portfolio/chrome-extension">More details</a>
             </span>
           </div>
         </div>
