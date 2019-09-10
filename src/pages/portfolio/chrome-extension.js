@@ -1,5 +1,5 @@
 import React from 'react';
-import worldInMetric from '../../assets/images/worldInMetric.jpg';
+import worldInMetric from '../../assets/images/worldInMetricScreenshot.jpg';
 
 import Layout from '../../components/Layout';
 

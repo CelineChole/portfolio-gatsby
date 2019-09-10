@@ -1,11 +1,11 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import yogaDiceHomePage from '../../assets/images/yogaDiceHomePage.jpg';
-import juliaHomePage from '../../assets/images/juliaHomePage.jpg';
+import yogaDice from '../../assets/images/yogaDice.jpg';
+import chef from '../../assets/images/chef.jpg';
+import automateUndraw from '../../assets/images/automateUndraw.jpg';
 import budget from '../../assets/images/budget.jpg';
-import automatexkcd from '../../assets/images/automatexkcd.jpg';
-import cooking from '../../assets/images/cooking.jpg';
 import yoga from '../../assets/images/yoga.jpg';
+import worldInMetric from '../../assets/images/worldInMetric.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -57,7 +57,7 @@ const IndexPage = () => (
           </section>
           <section className="explore">
             <div className="image">
-              <img src={automatexkcd} alt="" />
+              <img src={automateUndraw} alt="" />
             </div>
             <div className="content">
               <header>
@@ -79,7 +79,7 @@ const IndexPage = () => (
           </section>
           <section className="explore">
             <div className="image">
-              <img src={cooking} alt="cooking photo" />
+              <img src={worldInMetric} alt="cooking photo" />
             </div>
             <div className="content">
               <header>
@@ -107,7 +107,7 @@ const IndexPage = () => (
           </section>
           <section className="explore">
             <div className="image">
-              <img src={yogaDiceHomePage} alt="" />
+              <img src={yogaDice} alt="" />
             </div>
             <div className="content">
               <header>
@@ -144,7 +144,7 @@ const IndexPage = () => (
 
           <section className="explore">
             <div className="image">
-              <img src={juliaHomePage} alt="" />
+              <img src={chef} alt="chef" />
             </div>
             <div className="content">
               <header>
