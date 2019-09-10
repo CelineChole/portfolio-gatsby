@@ -45,7 +45,7 @@ const IndexPage = () => (
             </p>
             <p>
               To explore some resources I built for students,{' '}
-              <a href="/resources/student-resources">click here.</a>
+              <a href="/resources/student-resources">click here</a>.
               To see more personal projects scroll down.
             </p>
           </div>

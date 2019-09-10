@@ -10,10 +10,6 @@ import yoga from '../../assets/images/yoga.jpg';
 const IndexPage = () => (
   <Layout fullMenu>
     <article id="main">
-    <header>
-        <h2>Projects</h2>
-        <p>Overview of what I am building</p>
-      </header>
       <header>
         <h2>Projects</h2>
         <p>Overview of what I am building</p>

@@ -11,16 +11,16 @@ const IndexPage = () => (
       <section className="wrapper style5">
         <div className="inner">
           <h3>Technologies</h3>
-          <p>GatsbyJS - GraphQL - Tailwind</p>
+          <p>GatsbyJS - React - GraphQL - Tailwind</p>
           <h3>Overview</h3>
           <p>
             In 2018 I deciced to commit to a daily yoga practice. I began to
             consume a lot of online videos to give me ideas and saved them in a
-            folder on YouTube. My growing collection quickly began hard to
+            folder on YouTube. My growing collection quickly became hard to
             manage. Retrieving the exact video I wanted was a question of chance
             and I was getting frustrated. One quick fix was to create several
             folders but that didn't really solve the problem because the
-            organization was not systematic.
+            organization was not systematic and I like things to be well organized.
           </p>
           <p>
             I wanted a library to group all my favorite videos and filter them
@@ -35,6 +35,7 @@ const IndexPage = () => (
               <li>YouTube channel</li>
               <li>Duration</li>
               <li>Tags</li>
+              <li>Level</li>
             </ul>
             Videos can be ordered by ascending or descending order.
           </p>
@@ -52,7 +53,7 @@ const IndexPage = () => (
           </div>
           <br />
           <h3>Frontend</h3>
-          <p>The frontend is built with GatsbyJS and Tailwind.</p>
+          <p>The frontend is built with GatsbyJS, React and Tailwind.</p>
           <h3>Backend</h3>
           <p>
             I am using a Google sheets as my database. I and accessing the data
@@ -61,11 +62,8 @@ const IndexPage = () => (
           <h3>Deployment</h3>
           <p>
             Yogi-library is deployed with Surge. I really appreciate how easy it
-            is to deploy with two commands line.
+            is to deploy with two commands.
           </p>
-          <h3>Future ideas</h3>
-          <p>I would like to extend this library with a library of yoga poses.</p>
-          <p>I also consider extending the information available for each video.</p>
           <hr />
           <h4>Links</h4>
           <p>
