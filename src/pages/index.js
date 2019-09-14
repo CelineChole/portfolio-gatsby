@@ -4,7 +4,7 @@ import Scroll from '../components/Scroll';
 import config from '../../config';
 import yoga from '../assets/images/yoga.jpg';
 import budget from '../assets/images/budget.jpg';
-import automatexkcd from '../assets/images/automatexkcd.jpg';
+import automateundraw from '../assets/images/automateundraw.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -119,7 +119,7 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={automatexkcd} alt="" />
+          <img src={automateundraw} alt="" />
         </div>
         <div className="content">
           <h2>Should I automate it?</h2>
