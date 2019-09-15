@@ -4,7 +4,7 @@ import Scroll from '../components/Scroll';
 import config from '../../config';
 import yoga from '../assets/images/yoga.jpg';
 import budget from '../assets/images/budget.jpg';
-import automateundraw from '../assets/images/automateundraw.jpg';
+import automateundraw from '../assets/images/automateUndraw.jpg';
 
 const IndexPage = () => (
   <Layout>
