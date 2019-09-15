@@ -12,8 +12,31 @@ const IndexPage = () => (
       </header>
       <section className="wrapper style5">
         <div className="inner">
-          <h3>Technologies</h3>
-          <p>React - MaterializeCSS</p>
+          <div className="row">
+            <div className="col-6">
+              <h3>Links</h3>
+              <p>
+                <a
+                  href="https://github.com/aedificatorum/shouldiautomateit"
+                  target="blank"
+                >
+                  GitHub
+                </a>
+                {` `}|{` `}
+                <a
+                  href="https://aedificatorum.github.io/shouldiautomateit/"
+                  target="blank"
+                >
+                  Live Demo
+                </a>
+              </p>
+            </div>
+            <div className="col-6">
+              <h3>Technologies</h3>
+              <p>React - MaterializeCSS</p>
+            </div>
+          </div>
+          <br />
           <h3>Overview</h3>
           <p>
             Should I automate it? is designed for anyone interested to see when
@@ -50,23 +73,6 @@ const IndexPage = () => (
           <p>
             One of the future ideas would be to translate the tool and provide a
             more detailed summary.
-          </p>
-          <hr />
-          <h4>Links</h4>
-          <p>
-            <a
-              href="https://github.com/aedificatorum/shouldiautomateit"
-              target="blank"
-            >
-              GitHub
-            </a>
-            |
-            <a
-              href="https://aedificatorum.github.io/shouldiautomateit/"
-              target="blank"
-            >
-              Live Demo
-            </a>
           </p>
         </div>
       </section>

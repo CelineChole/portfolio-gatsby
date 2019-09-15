@@ -10,8 +10,28 @@ const IndexPage = () => (
       </header>
       <section className="wrapper style5">
         <div className="inner">
-          <h3>Technologies</h3>
-          <p>GatsbyJS - React - GraphQL - Tailwind</p>
+          <div className="row">
+            <div className="col-6">
+              <h3>Links</h3>
+              <p>
+                <a
+                  href="https://github.com/CelineChole/yoga-library"
+                  target="blank"
+                >
+                  GitHub
+                </a>
+                | Live Demo: {` `}
+                <a href="https://yogilibrary.com/" target="blank">
+                  yogilibrary.com
+                </a>
+              </p>
+            </div>
+            <div className="col-6">
+              <h3>Technologies</h3>
+              <p>GatsbyJS - React - GraphQL - Tailwind</p>
+            </div>
+          </div>
+          <br />
           <h3>Overview</h3>
           <p>
             In 2018 I deciced to commit to a daily yoga practice. I began to
@@ -20,7 +40,8 @@ const IndexPage = () => (
             manage. Retrieving the exact video I wanted was a question of chance
             and I was getting frustrated. One quick fix was to create several
             folders but that didn't really solve the problem because the
-            organization was not systematic and I like things to be well organized.
+            organization was not systematic and I like things to be well
+            organized.
           </p>
           <p>
             I wanted a library to group all my favorite videos and filter them
@@ -41,9 +62,7 @@ const IndexPage = () => (
           </p>
           <div className="row gtr-50 gtr-uniform">
             <div className="col-3">
-              <span className="image fit">
-                
-              </span>
+              <span className="image fit"></span>
             </div>
             <div className="col-6">
               <span className="image fit">
@@ -60,24 +79,7 @@ const IndexPage = () => (
             using a Gatsby plugin and GraphQL queries.
           </p>
           <h3>Deployment</h3>
-          <p>
-            Yogi-library is deployed with Surge. I really appreciate how easy it
-            is to deploy with two commands.
-          </p>
-          <hr />
-          <h4>Links</h4>
-          <p>
-            <a
-              href="https://github.com/CelineChole/yoga-library"
-              target="blank"
-            >
-              GitHub
-            </a>
-            |
-            <a href="http://yogi-library.surge.sh/" target="blank">
-              Live Demo
-            </a>
-          </p>
+          <p>Yogi-library is deployed with Netlify.</p>
         </div>
       </section>
     </article>

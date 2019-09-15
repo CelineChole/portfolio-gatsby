@@ -25,8 +25,16 @@ const IndexPage = () => (
                 <h3>Yogi Library</h3>
                 <p>GatbsyJS - GraphQL - TailwindCSS</p>
               </header>
+              <p>Live Demo: {` `}
+                  <a
+                    href="https://yogilibrary.com/"
+                    target="blank"
+                  >
+                    yogilibrary.com
+                  </a>
+                </p>
               <p>
-                Yogi Library is a curated list of videos to practice yoga. Videos can be viewed by duration, by type of yoga, tags...
+                Yogi Library is a curated list of videos to practice yoga. Videos can be viewed by duration, by type of yoga, by tags...
               </p>
               <p>
                 <a href="/portfolio/yogi-library">More details</a>

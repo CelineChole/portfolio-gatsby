@@ -88,7 +88,7 @@ const IndexPage = () => (
               </a>
             </span>
             <span className="index-links">
-              <a href="http://yogi-library.surge.sh/" target="blank">
+              <a href="https://yogilibrary.com/" target="blank">
                 Live Demo
               </a>
             </span>
