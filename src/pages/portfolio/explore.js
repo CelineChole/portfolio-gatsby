@@ -25,7 +25,7 @@ const IndexPage = () => (
                 <h3>Yogi Library</h3>
                 <p>GatbsyJS - GraphQL - TailwindCSS</p>
               </header>
-              <p>Live Demo: {` `}
+              <p>Visit: {` `}
                   <a
                     href="https://yogilibrary.com/"
                     target="blank"
@@ -72,6 +72,14 @@ const IndexPage = () => (
                 <h3>Should I automate it?</h3>
                 <p>React - MaterializeCSS</p>
               </header>
+              <p>Visit: {` `}
+                  <a
+                    href="https://aedificatorum.github.io/shouldiautomateit/"
+                    target="blank"
+                  >
+                    Should I Automate It?
+                  </a>
+                </p>
               <p>
                 Should I automate it? is designed for anyone interested to see
                 when a manual process would benefit from being automated. This

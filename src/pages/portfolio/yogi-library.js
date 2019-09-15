@@ -20,7 +20,7 @@ const IndexPage = () => (
                 >
                   GitHub
                 </a>
-                | Live Demo: {` `}
+                | {` `}
                 <a href="https://yogilibrary.com/" target="blank">
                   yogilibrary.com
                 </a>
