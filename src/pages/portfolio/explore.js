@@ -18,7 +18,7 @@ const IndexPage = () => (
         <div className="inner">
         <section className="explore">
             <div className="image">
-              <img src={yoga} alt="" />
+              <img src={yoga} alt="woman meditating" />
             </div>
             <div className="content">
               <header>
@@ -43,7 +43,7 @@ const IndexPage = () => (
           </section>
           <section className="explore">
             <div className="image">
-              <img src={budget} alt="" />
+              <img src={budget} alt="wallet" />
             </div>
             <div className="content">
               <header>
@@ -95,7 +95,7 @@ const IndexPage = () => (
           </section>
           <section className="explore">
             <div className="image">
-              <img src={worldInMetric} alt="cooking photo" />
+              <img src={worldInMetric} alt="world map" />
             </div>
             <div className="content">
               <header>

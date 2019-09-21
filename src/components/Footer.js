@@ -5,10 +5,10 @@ export default function Footer() {
     <footer id="footer">
       <ul className="icons">
         {config.socialLinks.map(social => {
-          const { style, icon, name, url } = social;
+          const { style, icon, name, url, label } = social;
           return (
             <li key={url}>
-              <a href={url} className={`icon ${style} ${icon}`}>
+              <a href={url} aria-label={label} className={`icon ${style} ${icon}`}>
                 <span className="label">{name}</span>
               </a>
             </li>
@@ -19,7 +19,7 @@ export default function Footer() {
         <li>&copy; Built by Céline Cholé</li>
         <li>
           Design:{' '}
-          <a href="http://html5up.net" target="_blank">
+          <a href="https://html5up.net" rel="noopener noreferrer" target="_blank">
             HTML5 UP
           </a>
         </li>

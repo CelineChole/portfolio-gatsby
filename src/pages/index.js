@@ -73,7 +73,7 @@ const IndexPage = () => (
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
-          <img src={yoga} alt="" />
+          <img src={yoga} alt="woman meditating" />
         </div>
         <div className="content">
           <h2>Yogi Library</h2>
@@ -100,7 +100,7 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={budget} alt="" />
+          <img src={budget} alt="wallet" />
         </div>
         <div className="content">
           <h2>Pocket Budget</h2>
