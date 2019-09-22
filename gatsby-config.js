@@ -5,7 +5,14 @@ module.exports = {
   siteMetadata: {
     title: config.siteTitle,
   },
+  
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-38000692-1`,
+      },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
