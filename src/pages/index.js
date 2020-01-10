@@ -33,20 +33,14 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Fullstack Web Instructor at{' '}
-            <a href="https://www.pursuit.org/" target="blank">
-              Pursuit
-            </a>
+            Fullstack Web Instructor at{' '}<div>
+              <a href="https://www.fullstackacademy.com/" target="blank">
+                Fullstack Academy
+            </a></div>
           </h2>
           <div className="not-too-wide">
             <p>
-              I am currently a Fullstack Web Instructor in a non profit
-              organisation promoting more diversity in the tech world.
-            </p>
-            <p>
-              To explore some resources I built for students,{' '}
-              <a href="/resources/student-resources">click here</a>. To see more
-              personal projects scroll down.
+              I am currently a Fullstack Web Instructor at Fullstack Academy, an immersive software engineering program based in NYC.
             </p>
           </div>
         </header>
