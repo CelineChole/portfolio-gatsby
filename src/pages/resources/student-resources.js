@@ -13,15 +13,12 @@ const IndexPage = () => (
         <div className="inner">
           <h3>10 days of JavaScript</h3>
           <p>
-            This is a collection of 10 JavaScript problems I created to help
-            students consolidate their knowledge.
+            This is a collection of{' '}
+            <a href="http://celine.tech/2019-07/ten-days-js/" target="blank">
+              10 JavaScript problems
+            </a>{' '}
+            I created to help students consolidate their knowledge.
           </p>
-          <a
-            href="https://gist.github.com/CelineChole/fed4df894f83f02fa750bd92cddded74"
-            target="blank"
-          >
-            Link to the gist.
-          </a>
 
           <hr />
 
@@ -34,43 +31,46 @@ const IndexPage = () => (
             href="https://github.com/CelineChole/express-middleware"
             target="blank"
           >
-            Link to the gist.
+            Link to the repo.
           </a>
 
           <hr />
 
           <h3>Recommended extensions for Visual Studio Code</h3>
           <p>
-            This is a collection of VS code extensions that I found very useful.
+            This is a collection of{' '}
+            <a
+              href="http://celine.tech/2019-08/vs-code-extension/"
+              target="blank"
+            >
+              VS code extensions
+            </a>{' '}
+            I found very useful.
           </p>
-          <a
-            href="https://gist.github.com/CelineChole/f9b4b44d3637fdc242e6fec0e27c8d85"
-            target="blank"
-          >
-            Link to the gist.
-          </a>
 
           <hr />
 
           <h3>Tech resources</h3>
-          <p>A collection of resources I found useful for students.</p>
-          <a
-            href="https://gist.github.com/CelineChole/38ff863559f13ef39a6b5646c57e1996"
-            target="blank"
-          >
-            Link to the gist.
-          </a>
+          <p>
+            {' '}
+            <a href="http://celine.tech/2019-08/tech-resources/" target="blank">
+              A collection of resources
+            </a>{' '}
+            I found useful for students.
+          </p>
 
           <hr />
 
           <h3>Recursion</h3>
-          <p>Review lesson on recursion</p>
-          <a
-            href="https://gist.github.com/CelineChole/1fa7d405b1efeed3ebfe04047c6b8342"
-            target="blank"
-          >
-            link to the gist.
-          </a>
+          <p>
+            Review lesson on{' '}
+            <a
+              href="http://celine.tech/2020-01/recursion-recursion-recursion/"
+              target="blank"
+            >
+              recursion
+            </a>
+          </p>
         </div>
       </section>
     </article>
